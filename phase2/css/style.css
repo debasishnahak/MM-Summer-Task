@@ -1,0 +1,27 @@
+
+.dropdown-menu{
+	background-color:#222
+	}
+.dropdown-menu > li > a
+	{
+		clear:both; 
+		color:#ddd;
+		background-color:#222; 
+		padding:10px 20px; 
+		font-family:'Oswald',sans-serif;
+		-webkit-transition:all 0.5s; 
+		-mz-transition:all 0.5s;
+		-ms-transition:all 0.5s; 
+		-o-transition:all 0.5s;
+		transition:all 0.5s
+	}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#fff}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
